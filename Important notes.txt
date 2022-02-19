@@ -1,0 +1,22 @@
+CCDC important things:
+
+Don't forget the basics:
+-Address Firewall/Router vulnerabilities first
+-change passwords frequently
+-Use hardening Guides and Templates
+-Stop unnecessary services and Delete accounts that are not necessary for functionality
+-patch and update
+-Reinstalling or restoring images are not always the solution for remediation
+-use logs and analysis tools
+ -monitor logs for errors and login events, this help team detect Red Team probes and intrusions.
+
+
+Incident Responese Report
+-well-written report on Red Team activity can reduce penalties
+
+
+
+Windows team lookout for:
+1.) Printer Nightmare https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527 TLDR: update to the patch or disable the print spooler service on the Windows clients that do not need to print.  Not sure about print servers though. 
+
+2.) Microsoft Exchange 2016 - 2019: https://www.bleepingcomputer.com/news/security/exploit-released-for-microsoft-exchange-rce-bug-patch-now/ TLDR: patch or for the love of god disable on site exchange servers because it is 2022.
